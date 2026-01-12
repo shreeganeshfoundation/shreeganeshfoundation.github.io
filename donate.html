@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/donate_style.css">
   </head>
   <!--? Preloader Start -->
   <div id="preloader-active">
@@ -113,59 +114,63 @@
       </div>
     </div>
     <!-- Hero End -->
-    <!--?  Contact Area start  -->
+
+    <!-- Donation Section -->
     <section class="contact-section">
       <div class="container">
-        <div class="row">
-          <!-- <div class="col-12">
-            <h2 class="contact-title">Get in Touch</h2>
-          </div> -->
-          <!-- <div class="col-lg-8">
-            <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-              <div class="row">
-                <div class="col-12">
-                  <div class="form-group">
-                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Enter Message"></textarea>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email">
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-group">
-                    <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject">
-                  </div>
-                </div>
+
+        <h2 class="text-center mb-5">Ways You Can Donate</h2>
+
+        <div class="row text-center">
+
+          <!-- BANK DETAILS -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="donation-box">
+              <div class="donation-icon">
+                <i class="ti-home"></i>
               </div>
-              <div class="form-group mt-3">
-                <button type="submit" class="button button-contactForm boxed-btn">Send</button>
-              </div>
-            </form>
-          </div> -->
-          <div class="col-12 offset-lg-1"> <!-- <div class="col-lg-3 offset-lg-1"> -->
-            <div class="media contact-info">
-              <span class="contact-info__icon"><i class="ti-home"></i></span>
-              <div class="media-body">
-                <h3>BANK NAME :- <strong>IDBI BANK</strong></h3><br>
-                <h3>BENEFICIARY NAME :- <strong>SHREE GANESH FOUNDATION</strong></h3><br>
-                <h3>BENEFICIARY ACCOUNT :- <strong>0082104000232012</strong></h3><br>
-                <h3>BANK IFSC CODE :- <strong>IBKL0000082</strong></h3><br>
-                <h3>BANK BRANCH :- <strong>GHATLODIA, AHMEDABAD, GUJARAT</strong></h3><br>
-                <!-- <p>Gujarat, India - 380063</p> -->
-              </div>
-            </div>            
+              <h4>Bank Transfer</h4>
+              <p>
+                <strong>Bank:</strong> IDBI Bank<br>
+                <strong>Account Name:</strong> Shree Ganesh Foundation<br>
+                <strong>Account No:</strong> 0082102000045182<br>
+                <strong>IFSC:</strong> IBKL0000082<br>
+                <strong>Branch:</strong> Ghatlodia, Ahmedabad
+              </p>
+            </div>
           </div>
+
+          <!-- UPI QR CODE -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="donation-box">
+              <div class="donation-icon">
+                <i class="ti-mobile"></i>
+              </div>
+              <h4>Donate via UPI</h4>
+              <img src="assets/img/gallery/sgf_google_pay.jpeg" alt="UPI QR Code" class="img-fluid qr-img">
+              <p class="mt-2">Scan QR using any UPI App</p>
+            </div>
+          </div>
+
+          <!-- RAZORPAY LINK -->
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="donation-box">
+              <div class="donation-icon">
+                <i class="ti-credit-card"></i>
+              </div>
+              <h4>Online Donation</h4>
+              <p>Donate securely using Razorpay.</p>
+              <a href="https://razorpay.me/@shreeganeshfoundation2014"
+                 target="_blank"
+                 class="btn btn-primary">
+                Donate Now
+              </a>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
-    <!-- Contact Area End -->
   </main>
 
   <footer>
